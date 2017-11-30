@@ -8,9 +8,11 @@
 	},
 	"dependencies": {
 		"babel-preset-react-native": "2.1.0",
+		"lodash": "^4.17.4",
 		"react": "16.0.0-alpha.12",
 		"react-native": "0.47.2",
-		"react-native-navigation": "^1.1.205"
+		"react-native-navigation": "^1.1.205",
+		"react-native-view-transformer": "^0.0.28"
 	},
 	"devDependencies": {
 		"babel-jest": "20.0.3",

@@ -39,14 +39,14 @@ export default class animations extends Component {
 					duration: 4000
 				}
 			)
-		})
+		});
 		Animated.stagger(10, animations).start()
 	}
 
 	render () {
 		const animations = arr.map((a, i) => {
 			return <Animated.View key={i} style={{opacity: this.animatedValue[a], height: 20, width: 20, backgroundColor: 'red', marginLeft: 3, marginTop: 3}} />
-		})
+		});
 		return (
 			<View style={styles.container}>
 				{animations}
